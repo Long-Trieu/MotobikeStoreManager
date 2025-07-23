@@ -156,14 +156,6 @@
     <Compile Include="Form\Report\RPNhaphang.Designer.cs">
       <DependentUpon>RPNhaphang.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataSet1.cs">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Form\adminHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -465,17 +457,6 @@
     <None Include="bin\Debug\QLXM-8.exe.config" />
     <None Include="bin\Debug\QLXM-8.vshost.exe.config" />
     <None Include="bin\Debug\QLXM-8.vshost.exe.manifest" />
-    <None Include="DataSet1.xsc">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="DataSet1.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DataSet1.xss">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </None>
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\Debug\QLXM-8.csproj.AssemblyReference.cache" />
