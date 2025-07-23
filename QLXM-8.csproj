@@ -90,70 +90,70 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="bin\Debug\Report\BH_Full.cs">
+    <Compile Include="Form\Report\BH_Full.cs">
       <DependentUpon>BH_Full.rpt</DependentUpon>
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Include="bin\Debug\Report\BH_Ngay.cs">
+    <Compile Include="Form\Report\BH_Ngay.cs">
       <DependentUpon>BH_Ngay.rpt</DependentUpon>
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Include="bin\Debug\Report\BH_NhomXe.cs">
+    <Compile Include="Form\Report\BH_NhomXe.cs">
       <DependentUpon>BH_NhomXe.rpt</DependentUpon>
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Include="bin\Debug\Report\KH_DiaChi.cs">
+    <Compile Include="Form\Report\KH_DiaChi.cs">
       <DependentUpon>KH_DiaChi.rpt</DependentUpon>
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Include="bin\Debug\Report\KH_Full.cs">
+    <Compile Include="Form\Report\KH_Full.cs">
       <DependentUpon>KH_Full.rpt</DependentUpon>
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Include="bin\Debug\Report\NH_Full.cs">
+    <Compile Include="Form\Report\NH_Full.cs">
       <DependentUpon>NH_Full.rpt</DependentUpon>
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Include="bin\Debug\Report\NH_Ngay.cs">
+    <Compile Include="Form\Report\NH_Ngay.cs">
       <DependentUpon>NH_Ngay.rpt</DependentUpon>
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Include="bin\Debug\Report\NH_NhomXe.cs">
+    <Compile Include="Form\Report\NH_NhomXe.cs">
       <DependentUpon>NH_NhomXe.rpt</DependentUpon>
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Include="bin\Debug\Report\RPBanhang.cs">
+    <Compile Include="Form\Report\RPBanhang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bin\Debug\Report\RPBanhang.Designer.cs">
+    <Compile Include="Form\Report\RPBanhang.Designer.cs">
       <DependentUpon>RPBanhang.cs</DependentUpon>
     </Compile>
-    <Compile Include="bin\Debug\Report\RPKhachhang.cs">
+    <Compile Include="Form\Report\RPKhachhang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bin\Debug\Report\RPKhachhang.Designer.cs">
+    <Compile Include="Form\Report\RPKhachhang.Designer.cs">
       <DependentUpon>RPKhachhang.cs</DependentUpon>
     </Compile>
-    <Compile Include="bin\Debug\Report\RPNhaphang.cs">
+    <Compile Include="Form\Report\RPNhaphang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bin\Debug\Report\RPNhaphang.Designer.cs">
+    <Compile Include="Form\Report\RPNhaphang.Designer.cs">
       <DependentUpon>RPNhaphang.cs</DependentUpon>
     </Compile>
     <Compile Include="DataSet1.cs">
@@ -298,46 +298,46 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>qlxmtk.xsd</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="bin\Debug\Report\BH_Full.rpt">
+    <EmbeddedResource Include="Form\Report\BH_Full.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>BH_Full.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="bin\Debug\Report\BH_Ngay.rpt">
+    <EmbeddedResource Include="Form\Report\BH_Ngay.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>BH_Ngay.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="bin\Debug\Report\BH_NhomXe.rpt">
+    <EmbeddedResource Include="Form\Report\BH_NhomXe.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>BH_NhomXe.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="bin\Debug\Report\KH_DiaChi.rpt">
+    <EmbeddedResource Include="Form\Report\KH_DiaChi.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>KH_DiaChi.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="bin\Debug\Report\KH_Full.rpt">
+    <EmbeddedResource Include="Form\Report\KH_Full.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>KH_Full.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="bin\Debug\Report\NH_Full.rpt">
+    <EmbeddedResource Include="Form\Report\NH_Full.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>NH_Full.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="bin\Debug\Report\NH_Ngay.rpt">
+    <EmbeddedResource Include="Form\Report\NH_Ngay.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>NH_Ngay.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="bin\Debug\Report\NH_NhomXe.rpt">
+    <EmbeddedResource Include="Form\Report\NH_NhomXe.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>NH_NhomXe.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="bin\Debug\Report\RPBanhang.resx">
+    <EmbeddedResource Include="Form\Report\RPBanhang.resx">
       <DependentUpon>RPBanhang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="bin\Debug\Report\RPKhachhang.resx">
+    <EmbeddedResource Include="Form\Report\RPKhachhang.resx">
       <DependentUpon>RPKhachhang.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="bin\Debug\Report\RPNhaphang.resx">
+    <EmbeddedResource Include="Form\Report\RPNhaphang.resx">
       <DependentUpon>RPNhaphang.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -536,25 +536,25 @@
     <Content Include="bin\Debug\QLXM-8.vshost.exe" />
     <Content Include="bin\Debug\ShockwaveFlashObjects.dll" />
     <Content Include="bin\Debug\stdole.dll" />
-    <Content Include="bin\Icon\about.png" />
-    <Content Include="bin\Icon\about_large.png" />
-    <Content Include="bin\Icon\account.png" />
-    <Content Include="bin\Icon\blackground.png" />
-    <Content Include="bin\Icon\Check-48.png" />
-    <Content Include="bin\Icon\Fingerprint-reader-48.png" />
-    <Content Include="bin\Icon\Graphite-public-48.png" />
-    <Content Include="bin\Icon\huongdan.png" />
-    <Content Include="bin\Icon\key.png" />
-    <Content Include="bin\Icon\lock.png" />
-    <Content Include="bin\Icon\Man_Black_48.png" />
-    <Content Include="bin\Icon\Money_48.png" />
-    <Content Include="bin\Icon\Money_Calculator_48.png" />
-    <Content Include="bin\Icon\Motorsport.png" />
-    <Content Include="bin\Icon\ncc.png" />
-    <Content Include="bin\Icon\ReflectionImage.png" />
-    <Content Include="bin\Icon\StartButtonImage.png" />
-    <Content Include="bin\Icon\Truck-48.png" />
-    <Content Include="bin\Icon\users.png" />
+    <Content Include="Resources\Icon\about.png" />
+    <Content Include="Resources\Icon\about_large.png" />
+    <Content Include="Resources\Icon\account.png" />
+    <Content Include="Resources\Icon\blackground.png" />
+    <Content Include="Resources\Icon\Check-48.png" />
+    <Content Include="Resources\Icon\Fingerprint-reader-48.png" />
+    <Content Include="Resources\Icon\Graphite-public-48.png" />
+    <Content Include="Resources\Icon\huongdan.png" />
+    <Content Include="Resources\Icon\key.png" />
+    <Content Include="Resources\Icon\lock.png" />
+    <Content Include="Resources\Icon\Man_Black_48.png" />
+    <Content Include="Resources\Icon\Money_48.png" />
+    <Content Include="Resources\Icon\Money_Calculator_48.png" />
+    <Content Include="Resources\Icon\Motorsport.png" />
+    <Content Include="Resources\Icon\ncc.png" />
+    <Content Include="Resources\Icon\ReflectionImage.png" />
+    <Content Include="Resources\Icon\StartButtonImage.png" />
+    <Content Include="Resources\Icon\Truck-48.png" />
+    <Content Include="Resources\Icon\users.png" />
     <Content Include="obj\Debug\QLXM-8.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\QLXM-8.exe" />
     <Content Include="obj\Debug\QLXM-8.pdb" />
